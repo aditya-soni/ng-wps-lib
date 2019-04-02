@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-wps-lib": [
+        "dist/ng-wps-lib"
+      ],
+      "ng-wps-lib/*": [
+        "dist/ng-wps-lib/*"
+      ]
+    }
   }
 }
